@@ -1,0 +1,983 @@
+[26-Jan-2013 18:48:58 Europe/Berlin] PHP Warning:  include(ipnlistener.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dev/public_html/mogo/tokens_check2.php on line 8
+[26-Jan-2013 18:48:58 Europe/Berlin] PHP Warning:  include(ipnlistener.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dev/public_html/mogo/tokens_check2.php on line 8
+[26-Jan-2013 18:48:58 Europe/Berlin] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'ipnlistener.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dev/public_html/mogo/tokens_check2.php on line 8
+[26-Jan-2013 18:48:58 Europe/Berlin] PHP Fatal error:  Class 'IpnListener' not found in /home/dev/public_html/mogo/tokens_check2.php on line 9
+[26-Jan-2013 18:49:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/mogo/tokens_check2.php:2) in /home/dev/public_html/mogo/api/ipnlistener.php on line 307
+[26-Jan-2013 18:49:13 Europe/Berlin] Invalid HTTP request method.
+[26-Jan-2013 18:51:16 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/mogo/tokens_check2.php:2) in /home/dev/public_html/mogo/api/ipnlistener.php on line 307
+[26-Jan-2013 18:51:16 Europe/Berlin] Invalid HTTP request method.
+[26-Jan-2013 18:51:31 Europe/Berlin] cURL error: [77] error setting certificate verify locations:
+  CAfile: /home/dev/public_html/mogo/api/cert/api_cert_chain.crt
+  CApath: none
+
+[26-Jan-2013 18:51:42 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/mogo/tokens_check2.php:2) in /home/dev/public_html/mogo/api/ipnlistener.php on line 307
+[26-Jan-2013 18:51:42 Europe/Berlin] Invalid HTTP request method.
+[26-Jan-2013 18:55:55 Europe/Berlin] cURL error: [77] error setting certificate verify locations:
+  CAfile: /home/dev/public_html/mogo/api/cert/api_cert_chain.crt
+  CApath: none
+
+[26-Jan-2013 18:58:22 Europe/Berlin] cURL error: [77] error setting certificate verify locations:
+  CAfile: /home/dev/public_html/mogo/api/cert/api_cert_chain.crt
+  CApath: none
+
+[26-Jan-2013 19:02:47 Europe/Berlin] --------------------------------------------------------------------------------
+[01/26/2013 7:02 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:02:45 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=LxitqiaPXNZJ3IOkghkS9HyvT1GkuW8l7j1EgJhebPIgrfHjcL_THmYNvI-KfFoAcUOAKFBhDIYeWnLVohR9ZmfaCT1rGYuXhX6xvnockDx0KQqOR0uUsZ1N3_Rgym0HA_FcsG%7cJfU4FOLIDFqERAPp050CfmahmQGx45IJNdEdF2PibWS16QFwKduFFRamy0vF8epoxdZVhm%7cvLhbsL5c2NWO3xqIxZo7H0uIqMzof4QtZuZZaQIe7P_ICVGJEPvzCEZLUFoz8rk7fytE60%7c1359223366; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:02:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:02:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359223365722239; path=/; expires=Mon, 19-Jan-43 18:02:45 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             09:44:02 Jan 26, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          United States
+address_country_code     US
+address_zip              95131
+address_state            CA
+address_city             San Jose
+address_street           123, any street
+business                 seller@paypalsandbox.com
+receiver_email           seller@paypalsandbox.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              USD
+mc_fee                   0.44
+mc_gross                 12.34
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   21261744
+notify_version           2.1
+custom                   xyz123
+charset                  windows-1252
+verify_sign              AFcWxV21C7fd0v3bYYYRCpSSRl31AZ0jxk02q.ZVvnohfiXKz-YQbYSN
+
+
+
+[26-Jan-2013 19:04:26 Europe/Berlin] ITS OK
+[26-Jan-2013 19:04:26 Europe/Berlin] --------------------------------------------------------------------------------
+[01/26/2013 7:04 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:04:24 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=pAy5FTp1A9cCWiN_d4B21Ka-f-6oElsly6kuH1TqBFHMqe-PtLaLSP2wCaWZTW4k2zIiJKqIkQUWb3lpkfs5DbUa4dxpeyxEoiQNHVWyV2VGluDi8RupbXFtTXBjigYXrJrv40%7cJmC4dHIxTcGl2fyE0JWE4LGpNP6xwZxxqyf7eVSo58-85xKkfrHvH5sKLIp6FYqVIlDLqG%7cMc1FT0_qO6DX9gmJKN06tccv-iUADqDIAhDt1f9pEgfDx1ainoml6GDCXZaRO1hqFKx6lm%7c1359223465; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:04:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:04:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359223464992664; path=/; expires=Mon, 19-Jan-43 18:04:24 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             09:44:02 Jan 26, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          United States
+address_country_code     US
+address_zip              95131
+address_state            CA
+address_city             San Jose
+address_street           123, any street
+business                 seller@paypalsandbox.com
+receiver_email           seller@paypalsandbox.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              USD
+mc_fee                   0.44
+mc_gross                 12.34
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   21261744
+notify_version           2.1
+custom                   xyz123
+charset                  windows-1252
+verify_sign              AFcWxV21C7fd0v3bYYYRCpSSRl31AZ0jxk02q.ZVvnohfiXKz-YQbYSN
+
+
+
+[26-Jan-2013 19:05:38 Europe/Berlin] ITS OK
+[26-Jan-2013 19:05:38 Europe/Berlin] --------------------------------------------------------------------------------
+[01/26/2013 7:05 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:05:36 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=APm--uGmwsNhmU51pPcpDlbamN3EqC3SbQOXzbevel_L_j8lliNe9_0smFPw8xUNz1AI2BA6qAnTZ9EoaAXJbz6HPQQaTlDk65yh2L8ZK1O1eTVtpVKm1-_Z7RBLmPGzCurN3m%7c5uGKBmapc00FqwuwJ_NiI39gf3eVzf-QPayb0b_Gw2gD7mnZaRueziIN0tJYbfr-qONtiG%7c590_SMLmygFx0LJ2tSxXPgA7Pgtvk7SNRxQ2PfwFASfC40c76NMZBeBjo7XmsoiJzxHYKG%7c1359223537; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:05:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:05:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359223536938706; path=/; expires=Mon, 19-Jan-43 18:05:36 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             09:44:02 Jan 26, 2013 PST
+payment_status           Denied
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          United States
+address_country_code     US
+address_zip              95131
+address_state            CA
+address_city             San Jose
+address_street           123, any street
+business                 seller@paypalsandbox.com
+receiver_email           seller@paypalsandbox.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              USD
+mc_fee                   0.44
+mc_gross                 12.34
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   21261744
+notify_version           2.1
+custom                   xyz123
+charset                  windows-1252
+verify_sign              AJ.CkLve.rIuaXlt4W.vVd9UOCOoAN7.ZBsKksK0wTOSj3H.rfH9w2D3
+
+
+
+[26-Jan-2013 19:08:24 Europe/Berlin] ITS WRONG !
+[26-Jan-2013 19:08:24 Europe/Berlin] IPN failed fraud checks: 
+'receiver_email' does not match: seller@paypalsandbox.com
+'mc_gross' does not match: 12.34
+
+
+--------------------------------------------------------------------------------
+[01/26/2013 7:08 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:08:22 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=wVgYaLvTz5oqGmm_DReHXKu07m5lceAwnjDF-933-9CqXgVSeDwxmBdhw_40jYSN7ddk3b07zD3MZpl4P5Nuh5PSvahXrPhNWaFM22Gf8aUyM55v47X20rGLCDhBGDAMx2g_Fm%7cKQQSVS3ZJt_26ZyXwmPt6rEDrT2NYNiturrfSHuxtSjLFOR161s554wXwCIq8CmnTdO3L0%7cIHIxO0dsShLiKcJnGwuYONsjasobbNa12tocnJacPobc8WATn-66LJ3G4q4SRu8SN84LMG%7c1359223703; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:08:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:08:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359223702784934; path=/; expires=Mon, 19-Jan-43 18:08:22 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             09:44:02 Jan 26, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          United States
+address_country_code     US
+address_zip              95131
+address_state            CA
+address_city             San Jose
+address_street           123, any street
+business                 seller@paypalsandbox.com
+receiver_email           seller@paypalsandbox.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              USD
+mc_fee                   0.44
+mc_gross                 12.34
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   21261744
+notify_version           2.1
+custom                   xyz123
+charset                  windows-1252
+verify_sign              AeCQQpNMILiYk35d4r8nH8VttdqcAiU35EEVGCJG4jnMWj928.nAFKNo
+
+
+
+[26-Jan-2013 19:11:17 Europe/Berlin] ITS WRONG !
+[26-Jan-2013 19:11:17 Europe/Berlin] IPN failed fraud checks: 
+'mc_currency' does not match: EUR
+
+
+--------------------------------------------------------------------------------
+[01/26/2013 7:11 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:11:15 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=l2kbKnOmBRB8o_ViDI_fhA1dJSX7YOpa0XiegZp2k1Fyurz_IUiUZpDLgG_fF2rv8J2R5GPGefvDw90YT9PHtncIVhkBuaGhRgStvCTpiZue7d4b7HVb2OgfH5vpl-lc66Gn5W%7c7eGIrEKHCAY1PMTGs9V1Ief7W3tuVXeUHGo8QeOqZfT_MeaD64lRGl0rW4ThnrkgGhk2Km%7cUglJJuWqNZgjr_41hvt2QMUDc60xAKOLFhtIV3irDBIuwJT-cR7io4Qt6w1KV4U2jCaaO0%7c1359223875; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:11:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:11:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359223875179802; path=/; expires=Mon, 19-Jan-43 18:11:15 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             09:44:02 Jan 26, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          United States
+address_country_code     US
+address_zip              95131
+address_state            CA
+address_city             San Jose
+address_street           123, any street
+business                 seller@paypalsandbox.com
+receiver_email           hostime.eu@gmail.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              EUR
+mc_fee                   0.44
+mc_gross                 1.30
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   21261744
+notify_version           2.1
+custom                   xyz123
+charset                  windows-1252
+verify_sign              AWlMB6nI1ahlZBC0bR1-Bk.KYliGADNF5t2RoGUz.b-InrnZnJqkd7QC
+
+
+
+[26-Jan-2013 19:12:05 Europe/Berlin] ITS OK !!!!
+[26-Jan-2013 19:20:22 Europe/Berlin] ITS OK !!!!
+[26-Jan-2013 19:22:32 Europe/Berlin] ITS OK !!!!
+[26-Jan-2013 19:22:51 Europe/Berlin] ITS WRONG !
+[26-Jan-2013 19:22:51 Europe/Berlin] IPN failed fraud checks: 
+'txn_id' has already been processed: 21261744
+
+
+--------------------------------------------------------------------------------
+[01/26/2013 7:22 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:22:49 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=ZnEYi0Rnwn1f4plZL7FC38srPgAt9BLhVKJvmZFGrYWGa8BsT8677kzD-6PxZWVwptqcagywqk-A2CW74UenJV8tNWjf5NBgUhfHrwH6ijG5TGY69XCb8Dqyq9ym5tpu36aikm%7cYS8DnyYgMaxmKdA9ho1B83gfhpL1fRDu3NthD2CZ4wrgRQkqj1eF8yNe_7-N4ceImuYEr0%7cj_FCkOVr-GRc2TRTjR3dSvfvHtve36za8hYl7_LijAQksLItm2WJzbRJ7xH7_6sF8UXO0W%7c1359224569; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:22:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:22:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359224569344864; path=/; expires=Mon, 19-Jan-43 18:22:49 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             09:44:02 Jan 26, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          United States
+address_country_code     US
+address_zip              95131
+address_state            CA
+address_city             San Jose
+address_street           123, any street
+business                 seller@paypalsandbox.com
+receiver_email           hostime.eu@gmail.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              EUR
+mc_fee                   0.44
+mc_gross                 1.30
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   21261744
+notify_version           2.1
+custom                   xyz123
+charset                  windows-1252
+verify_sign              AbcvLGneuionm23UWNR0Y5eiYF8DA7rbsGcVRHAus5FolIWP2slJZKt4
+
+
+
+[26-Jan-2013 19:27:14 Europe/Berlin] ITS WRONG !
+[26-Jan-2013 19:27:14 Europe/Berlin] --------------------------------------------------------------------------------
+[01/26/2013 7:27 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:27:12 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=dWJ0KvMJObl2fJHxPv6YwKJofwYFcatsEaEeOY0AT_j2PEudrPoo0CS9eB8YnAUsv0mnU5A8upR6oy8j_Serlcds1Wh_eZK8T10QYfgg7OFFhjpDy8DPws79-FyssXVhktOsCG%7cRfARYF_eKOpgkY4V8usmJa_KxceZrR3ogO0jBper-ioKqOHgABH9-zjigq4QS1De3w6wem%7cSxEarV4o-g9wP88I-wO5BCbDLI9DoAhswdHWktbNJ2DdhhFOEmtMbv5e1zaJshsnFUN3-0%7c1359224833; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:27:13 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:27:13 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359224832914917; path=/; expires=Mon, 19-Jan-43 18:27:12 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+INVALID
+--------------------------------------------------------------------------------
+mc_gross                 1.30
+protection_eligibility   Ineligible
+payer_id                 X65JAUBKQUPMS
+tax                      0.00
+payment_date             10:27:09 Jan 26, 2013 PST
+payment_status           Completed
+charset                  windows-1252
+first_name               Julien
+mc_fee                   0.29
+notify_version           3.7
+custom                   
+payer_status             verified
+business                 hostime.eu@gmail.com
+quantity                 1
+verify_sign              AUaxvSojqajxsiGA9qXfGuCulUctAxABe8kISncbuLalDxO3MuYPjOUV
+payer_email              julien-boone@hotmail.com
+txn_id                   7BF25146F50167113
+payment_type             instant
+btn_id                   56748920
+last_name                Boone
+receiver_email           hostime.eu@gmail.com
+payment_fee              
+shipping_discount        0.00
+insurance_amount         0.00
+receiver_id              2ZB954HHGGGHJ
+txn_type                 web_accept
+item_name                Hostime - Créditer 1 token
+discount                 0.00
+mc_currency              EUR
+item_number              
+residence_country        BE
+handling_amount          0.00
+shipping_method          Default
+transaction_subject      Hostime - Créditer 1 token
+payment_gross            
+shipping                 0.00
+ipn_track_id             846b005141a52
+
+
+
+[26-Jan-2013 19:29:58 Europe/Berlin] ITS WRONG INVALID IPN !!
+[26-Jan-2013 19:29:58 Europe/Berlin] --------------------------------------------------------------------------------
+[01/26/2013 7:29 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:29:56 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Whylru1Yh_aWNm_2nXUnF1_jNR4Ouhtj9x59hBMYpPaMYkLbLKrV0Hgp2Rxl7KMYMjK6sqIG1YDvdhHiAQk_IZgCEkwaM1qlCBVKhA7mr5buj5eROci3KS4jzLm_HupgEceCJm%7c6204nZHNLQlY5WobRBHJnICFK5ZNKP2gGH0Z_EF1p2XZ6mKUK0xmm6hU2Mpjm8TA5XnD6G%7c1eCT2q51gaLF2LVpCJ2xVhRvsz8fIVY-Qz28Y6JyGk4ROqYOKqywJz5MNZY1Q_M0ig7gbG%7c1359224996; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:29:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:29:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359224996119356; path=/; expires=Mon, 19-Jan-43 18:29:56 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+INVALID
+--------------------------------------------------------------------------------
+mc_gross                 -1.30
+protection_eligibility   Ineligible
+payer_id                 X65JAUBKQUPMS
+payment_date             10:29:53 Jan 26, 2013 PST
+payment_status           Refunded
+charset                  windows-1252
+first_name               Julien
+mc_fee                   -0.04
+notify_version           3.7
+reason_code              refund
+custom                   
+business                 hostime.eu@gmail.com
+verify_sign              AIcgvoXfTpO6eKb89IuF6kvHsb4yAqvBBjHNPlu9Q6-ngNWqZueoPnoJ
+payer_email              julien-boone@hotmail.com
+parent_txn_id            7BF25146F50167113
+txn_id                   52A68119PD368490E
+payment_type             instant
+btn_id                   56748920
+last_name                Boone
+receiver_email           hostime.eu@gmail.com
+payment_fee              
+shipping_discount        0.00
+receiver_id              2ZB954HHGGGHJ
+insurance_amount         0.00
+item_name                Hostime - Créditer 1 token
+discount                 0.00
+mc_currency              EUR
+item_number              
+residence_country        BE
+handling_amount          0.00
+shipping_method          Default
+transaction_subject      Hostime - Créditer 1 token
+payment_gross            
+shipping                 0.00
+ipn_track_id             77ffc599c4c28
+
+
+
+[26-Jan-2013 19:36:49 Europe/Berlin] ITS WRONG !
+[26-Jan-2013 19:36:49 Europe/Berlin] IPN failed fraud checks: 
+'txn_id' has already been processed: 21261744
+
+
+--------------------------------------------------------------------------------
+[01/26/2013 7:36 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:36:47 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=2565H7-suimbdqxY2aOpjDRNI6Pzq36Bh43KBbwqiagDMDfsgBWPMoDK6gyq_iWLElA68xEtuQH7soRHFs7O45R3sYUw2norbmvURYQrYt0lx2HmeeeuXAKrKEgKZTh2M-Wz8m%7cBBmrOM75r7vFtJfDfL9m__xSOjQH4DrjaQ2V5EV5Vzn4zTlWxuNn7apbBtSbZSX-LwW4Um%7cKqo9ANUwNDehzAbPTPefSaq0Tx-Lhxt8Rp89qcLkl8Eo8Q7SOo_O5JoYLogr4unEveR_-W%7c1359225407; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:36:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:36:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359225407438106; path=/; expires=Mon, 19-Jan-43 18:36:47 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             09:44:02 Jan 26, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          United States
+address_country_code     US
+address_zip              95131
+address_state            CA
+address_city             San Jose
+address_street           123, any street
+business                 hostime.eu@gmail.com
+receiver_email           hostime.eu@gmail.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              EUR
+mc_fee                   0.44
+mc_gross                 1.30
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   21261744
+notify_version           2.1
+custom                   xyz123
+charset                  windows-1252
+verify_sign              AByCOTZY7IroA33k5.UNDJh9kSbVAtNleWVf6oIFpSIk3wOU2bvZKZtw
+
+
+
+[26-Jan-2013 19:37:30 Europe/Berlin] ITS OK !!!!
+[26-Jan-2013 19:38:49 Europe/Berlin] response = INVALId !
+[26-Jan-2013 19:38:49 Europe/Berlin] ITS WRONG INVALID IPN !!
+[26-Jan-2013 19:38:49 Europe/Berlin] --------------------------------------------------------------------------------
+[01/26/2013 7:38 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sat, 26 Jan 2013 18:38:47 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=PKdPs9V3_NwRt1863o6WY0goPJxVNlr6WmQmj8YAgc_KspQw628OTuyHEf7MHtDZKMbc7tjxlHNjhRTW9XD3MgACYRgLkVA5DpS_hOF5USyQ-p2oLKh5faumxqrFdVMkxs7St0%7cZo1915AhppM31VCATlbsEAZ5BVhKTSRpgtJaLst-jK6WFHgWo78umpt1v4nM6PiOCRIVTW%7c4rvdHFszix-jgjH_Gz_BhWJk3oTbOMv_I3BXZr8vl54PORHy3NAfSgG1081EKYlsaR-hxG%7c1359225527; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 24-Jan-2023 18:38:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 21-Jan-2033 18:38:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359225527496303; path=/; expires=Mon, 19-Jan-43 18:38:47 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+INVALID
+--------------------------------------------------------------------------------
+mc_gross                 1.30
+protection_eligibility   Ineligible
+payer_id                 X65JAUBKQUPMS
+tax                      0.00
+payment_date             10:38:45 Jan 26, 2013 PST
+payment_status           Completed
+charset                  windows-1252
+first_name               Julien
+mc_fee                   0.29
+notify_version           3.7
+custom                   
+payer_status             verified
+business                 hostime.eu@gmail.com
+quantity                 1
+verify_sign              AzWyjCKCwn9TN3.8cyiv0GmAJQLiACw6ghhcWwV72sYkC195dNw14SfM
+payer_email              julien-boone@hotmail.com
+txn_id                   6BN4444789262415F
+payment_type             instant
+btn_id                   56748920
+last_name                Boone
+receiver_email           hostime.eu@gmail.com
+payment_fee              
+shipping_discount        0.00
+insurance_amount         0.00
+receiver_id              2ZB954HHGGGHJ
+txn_type                 web_accept
+item_name                Hostime - Créditer 1 token
+discount                 0.00
+mc_currency              EUR
+item_number              
+residence_country        BE
+handling_amount          0.00
+shipping_method          Default
+transaction_subject      Hostime - Créditer 1 token
+payment_gross            
+shipping                 0.00
+ipn_track_id             cc7ac3d74115
+
+
+
+[26-Jan-2013 19:47:01 Europe/Berlin] ITS OK !!!!
+[28-Jan-2013 21:56:25 Europe/Berlin] ITS WRONG !
+[28-Jan-2013 21:56:25 Europe/Berlin] IPN failed fraud checks: 
+'receiver_email' does not match: seller@paypalsandbox.com
+'mc_gross' does not match: 10.60
+'mc_currency' does not match: USD
+
+
+--------------------------------------------------------------------------------
+[01/28/2013 9:56 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Mon, 28 Jan 2013 20:56:24 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=yCahrMRBEwOFEJN7NiqfS22S7q4j3LwH0u0DxDbZJg6hw7Kzs298LTiY_IVaaUTj37G86R7KCeSlQHrjnlGtACeBz45gBoTl3bCFbFNOscLyo_Pwyx2od6M95WpSW-KPAafkhG%7cVsxxANkYpeO5LbUYLkUws4UILX_4iGznHrZJZHJcsijuJOVR-BUsdZXANbyhOKmF3izOJ0%7cunn89lmJ81RX2jfJx2m3m9zhJ9o-QIoRAuVFLmaLVVr6Vlnh56MPDI-cUHknXTos3-575W%7c1359406584; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 26-Jan-2023 20:56:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 23-Jan-2033 20:56:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359406584028547; path=/; expires=Wed, 21-Jan-43 20:56:24 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             12:54:46 Jan 28, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          France
+address_country_code     FR
+business                 hostime.eu@gmail.com
+receiver_email           seller@paypalsandbox.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              USD
+mc_fee                   0.44
+mc_gross                 10.60
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   461282054
+notify_version           2.1
+custom                   root
+charset                  windows-1252
+verify_sign              A1mKR4ynij0rKRi5C7wUx0JrvFjqAnbwhqm95rJq-wrm3Ybl9q4MYK9T
+
+
+
+[28-Jan-2013 21:57:25 Europe/Berlin] ITS WRONG !
+[28-Jan-2013 21:57:25 Europe/Berlin] IPN failed fraud checks: 
+'mc_gross' does not match: 10.60
+
+
+--------------------------------------------------------------------------------
+[01/28/2013 9:57 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Mon, 28 Jan 2013 20:57:24 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=_-iFHiEso2zxukoNyIgzoO1jJJCsgRbpc3WmYk3jFDk-dr-bNGrPtLlauX9ay0pk2xOc7NCtWcgKr_xxwvBqciKUxWeZZW7DY3dDdlx_4Pnji_4EDww-RfkVpr_YXuauOo1UYW%7cj15Cp_LSoyzhQYfg23g7-XrmGqBVipQIHorIge8kIMgDfrdzDFnDkjBB7kNN6G0DieFI00%7c3O_3RCu0QXF52EJsRtW5puTkavN81iLDkwuRBXjJ7SI1zCVs-eMyHDhaKn7m0mURKeVp5W%7c1359406644; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 26-Jan-2023 20:57:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 23-Jan-2033 20:57:24 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359406644263587; path=/; expires=Wed, 21-Jan-43 20:57:24 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             12:54:46 Jan 28, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          France
+address_country_code     FR
+business                 hostime.eu@gmail.com
+receiver_email           hostime.eu@gmail.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              EUR
+mc_fee                   0.44
+mc_gross                 10.60
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   461282054
+notify_version           2.1
+custom                   root
+charset                  windows-1252
+verify_sign              AFcWxV21C7fd0v3bYYYRCpSSRl31ADTATSra9CMYWvJDZ9w7gKRkPIdM
+
+
+
+[28-Jan-2013 21:58:09 Europe/Berlin] ITS OK !!!!
+[28-Jan-2013 21:58:36 Europe/Berlin] ITS WRONG !
+[28-Jan-2013 21:58:36 Europe/Berlin] IPN failed fraud checks: 
+'txn_id' has already been processed: 461282054
+
+
+--------------------------------------------------------------------------------
+[01/28/2013 9:58 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Mon, 28 Jan 2013 20:58:35 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=9BTOglaIlgSZTf93Ci5G1MSEVOV4RlWskDAq7Az0iBLHQn4ef2EQld50CXObAym9bBr8TxvxzTVlM_GD47J5c7V3CBAtWqLbS2DDw8l-s5hpVYjJanqvniRMBkcsiFfGZ8AQZm%7cdmXkyqlx-Jg24ySN5iHQfcYmDZX9EUTb86lcbPpeFf-SptjY06op3FLBdcd-D6EBe1Rwdm%7cHJcy-BkHpalosvY7V4e2z3md3_UL5LXcBdcX1_x7jahAJrJlS-WELk8LFB0hpBQ1SgZZgW%7c1359406715; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 26-Jan-2023 20:58:35 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 23-Jan-2033 20:58:35 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359406715242883; path=/; expires=Wed, 21-Jan-43 20:58:35 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             12:54:46 Jan 28, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          France
+address_country_code     FR
+business                 hostime.eu@gmail.com
+receiver_email           hostime.eu@gmail.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              EUR
+mc_fee                   0.44
+mc_gross                 10.60
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   461282054
+notify_version           2.1
+custom                   root
+charset                  windows-1252
+verify_sign              An5ns1Kso7MWUdW4ErQKJJJ4qi4-AUcMTDc56gHtovOTAPOg1zQ-e6Iv
+
+
+
+[28-Jan-2013 22:00:40 Europe/Berlin] ITS WRONG !
+[28-Jan-2013 22:00:40 Europe/Berlin] IPN failed fraud checks: 
+'mc_gross' does not match: 31,00
+price is empty:  mc_gross = 31,00
+'txn_id' has already been processed: 461282054
+
+
+--------------------------------------------------------------------------------
+[01/28/2013 10:00 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Mon, 28 Jan 2013 21:00:38 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=YbygNTKQUVCPY-lRwTxs4BHsNSFY7wA9b9sjg6gELpXsEMB1C3CxA3zsjWBfso099Sd0pGnT4Jz93fjiPJ6bnACW8Ac3f6ZoQTQ9hVRkVd3ZeagDnWoS0whH69nG8QuecrvLsm%7cZDTNSdFNcLxEf2NII0APYdMujf0D1SPPjOaoiZlaQzzCsYMJEJE8UeuFYFiejl9GNpLv-G%7cETgoEukAPEL0M079nvlBzM4ALxNGAbK0HRUMBwI0baOLCtcCjvXihj-cVP7NZc9t92flum%7c1359406838; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 26-Jan-2023 21:00:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 23-Jan-2033 21:00:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359406838365086; path=/; expires=Wed, 21-Jan-43 21:00:38 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             12:54:46 Jan 28, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          France
+address_country_code     FR
+business                 hostime.eu@gmail.com
+receiver_email           hostime.eu@gmail.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              EUR
+mc_fee                   0.44
+mc_gross                 31,00
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   461282054
+notify_version           2.1
+custom                   root
+charset                  windows-1252
+verify_sign              AJ4WWboOJ55ofK96n9tCojZwAhp5A.3Hwo6xYvbVlVhcFAYB87MUnAM7
+
+
+
+[28-Jan-2013 22:04:37 Europe/Berlin] ITS WRONG !
+[28-Jan-2013 22:04:37 Europe/Berlin] IPN failed fraud checks: 
+price is empty:  mc_gross = 31,00
+
+
+--------------------------------------------------------------------------------
+[01/28/2013 10:04 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Mon, 28 Jan 2013 21:04:35 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=N8K7_0BgW7bwyPR7FOje56Vmv5ZqrFl6-wiIU72cQOulTzrQZtWs8AAJnY8mM9L1lT66JhD8O43DPX585sio9BwcVcpxzumQQbH1hHJmWGrmjkD9sa-ux3ukHN4ljS5UfhLUtG%7cRPlmJfOofLuuUa1pKCbeIlCe70NVmioeqdQyu4UmWh1j-bpBSxmjq8LwIs8EPTKFtU7sBG%7cgINCMEykmHw63llyryddCiSRsXQxxrJ4V5XacQiSXsLW9FzPh3PUTIAnDViSUyhIM-Zmr0%7c1359407076; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 26-Jan-2023 21:04:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 23-Jan-2033 21:04:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359407075743167; path=/; expires=Wed, 21-Jan-43 21:04:35 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             12:54:46 Jan 28, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          France
+address_country_code     FR
+business                 hostime.eu@gmail.com
+receiver_email           hostime.eu@gmail.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              EUR
+mc_fee                   0.44
+mc_gross                 31,00
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   461282068
+notify_version           2.1
+custom                   root
+charset                  windows-1252
+verify_sign              A6aq5tyKbsiIW36nWRqgC32Ml47rAtTVk-YQRzJ8rTxY1x10QCNP6IOm
+
+
+
+[28-Jan-2013 22:05:14 Europe/Berlin] Column count doesn't match value count at row 1
+[28-Jan-2013 22:07:13 Europe/Berlin] SQL REQ: INSERT INTO hostime_paypal_log VALUES 
+				(NULL, '461282069', 'buyer@paypalsandbox.com', 31,00, 'root') ERROR: Column count doesn't match value count at row 1
+[28-Jan-2013 22:10:28 Europe/Berlin] ITS OK !!!!
+[28-Jan-2013 22:10:48 Europe/Berlin] ITS WRONG !
+[28-Jan-2013 22:10:48 Europe/Berlin] IPN failed fraud checks: 
+'txn_id' has already been processed: 461282069
+
+
+--------------------------------------------------------------------------------
+[01/28/2013 10:10 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Mon, 28 Jan 2013 21:10:46 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=lB-WJ0iuPbO-ElOhdNMUrDh3zHJ-ZXrQtDkcz5WryrVR9hSHQjr9gvEXdLKlNHaDkMQbu48QZyRZ5GzzB93_iM3Jmt7Kft560UfqnuWSBCRGdDNkQwCfprjVRBzasRYX-RVcLW%7cpPfYxEsENm2dNg8iGL0oLZWrSjIn7Bio0j31I7KDZm5CIj45aX5gHzf1w1d0p664PIgTwm%7cIV0dlacGshMKBdY9T5vxiOBrfUJ4iDtrDUOxF4NE_hwGXd_Jhboe4mgLVzJZiVxjeU9R_G%7c1359407447; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 26-Jan-2023 21:10:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 23-Jan-2033 21:10:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1359407446647909; path=/; expires=Wed, 21-Jan-43 21:10:46 GMT
+X-Cnection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+test_ipn                 1
+payment_type             instant
+payment_date             12:54:46 Jan 28, 2013 PST
+payment_status           Completed
+address_status           confirmed
+payer_status             verified
+first_name               John
+last_name                Smith
+payer_email              buyer@paypalsandbox.com
+payer_id                 TESTBUYERID01
+address_name             John Smith
+address_country          France
+address_country_code     FR
+business                 hostime.eu@gmail.com
+receiver_email           hostime.eu@gmail.com
+receiver_id              TESTSELLERID1
+residence_country        US
+item_name                something
+item_number              AK-1234
+quantity                 1
+shipping                 3.04
+tax                      2.02
+mc_currency              EUR
+mc_fee                   0.44
+mc_gross                 31
+mc_gross_1               9.34
+txn_type                 web_accept
+txn_id                   461282069
+notify_version           2.1
+custom                   root
+charset                  windows-1252
+verify_sign              AZLJf1xjnKvS3E-Z9bGMfGW8rXB2ASNQunq.MZ-dQAVFcMqCpeyCVorT
+
+
+
+[28-Jan-2013 22:10:57 Europe/Berlin] ITS OK !!!!
